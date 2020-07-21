@@ -41,7 +41,7 @@ while(dead==False):
         
     #screen.blit(background_image, [0, 0])
     screen.fill((0,0,0))
-    #playery-=0.55
+    playery-=0.55
     playerx+=playerx_change
     player(playerx,playery)
 
